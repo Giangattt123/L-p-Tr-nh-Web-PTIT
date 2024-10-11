@@ -15,3 +15,33 @@ body::before {
   content: "";
   height: 60px;
 }
+
+/* CSS cho Footer */
+footer {
+  background-color: #343a40;
+  color: #ffffff;
+}
+
+.scroll-to-top {
+  color: #ffffff;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.scroll-to-top:hover {
+  color: #f8f9fa;
+  transform: translateY(-10px);
+}
+
+.scroll-to-top i {
+  font-size: 2.5rem;
+}
+
+@media (max-width: 576px) {
+  .scroll-to-top {
+    padding: 1rem;
+  }
+
+  .scroll-to-top i {
+    font-size: 2rem;
+  }
+}

@@ -1,0 +1,17 @@
+@media (min-width: 768px) {
+  .input-custom {
+    width: 50%;
+  }
+}
+
+@media (min-width: 768px) {
+  .image-custom {
+    width: 50%;
+  }
+}
+
+body::before {
+  display: block;
+  content: "";
+  height: 60px;
+}
